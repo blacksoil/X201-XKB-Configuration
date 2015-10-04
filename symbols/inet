@@ -144,8 +144,10 @@ xkb_symbols "evdev" {
     key <I163>   {      [ XF86Mail              ]       };
     key <I164>   {      [ XF86Favorites         ]       };
     key <I165>   {      [ XF86MyComputer        ]       };
-    key <I166>   {      [ XF86Back              ]       };
-    key <I167>   {      [ XF86Forward           ]       };
+//  key <I166>   {      [ XF86Back              ]       };
+    key <I166>   {      [ Prior                 ]       };
+//  key <I167>   {      [ XF86Forward           ]       };
+    key <I167>   {      [ Next                  ]       };
 //  key <I168>   {      [ ]       }; // KEY_CLOSECD (opposite of eject)
     key <I169>   {      [ XF86Eject             ]       };
     key <I170>   {      [ XF86Eject, XF86Eject  ]       };
